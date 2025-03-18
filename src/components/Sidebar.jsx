@@ -15,10 +15,10 @@ function Sidebar() {
 
       <aside className={`${
           isOpen ? 'w-8/12' : 'w-0'
-        } md:w-2/12 bg-white h-[720px] flex flex-col items-center py-5  fixed md:relative z-40 transition-all duration-300 overflow-hidden`}>
+        } md:w-2/12 bg-white top-0 left-0  h-screen md:h-[700px] flex flex-col items-center py-5  fixed md:relative z-40 transition-all duration-300 overflow-hidden`}>
         {/* โลโก้ */}
         <div className="flex flex-col items-center">
-          <img src="/LOGO.png" alt="logo" className="w-40 h-40 md:w-60 md:h-60 lg:w-80 lg:h-80" />
+          <img src="/LOGO.png" alt="logo" className="w-40 h-45 md:w-60 md:h-60 lg:w-60 lg:h-60" />
         </div>
 
         {/* เมนู */}
